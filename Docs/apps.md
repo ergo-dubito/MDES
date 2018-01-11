@@ -21,6 +21,7 @@
 - [Jude](http://astah.net/editions/community)
 - [Edraw Max Pro](https://www.edrawsoft.com)
 - [startuml](http://staruml.io/)
+- [Enterprise Architect](http://sparxsystems.com/products/ea/)
 
 ## Time
 - [wakatime](https://wakatime.com/) - 量化你的代码
