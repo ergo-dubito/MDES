@@ -139,8 +139,8 @@ function off() {
   unset {http,https,ftp}_proxy
 }
 
-function hiddenOn() { defaults write com.apple.Finder AppleShowAllFiles YES ; }
-function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO ; }
+function hiddenOn() { defaults write com.apple.Finder AppleShowAllFiles YES }
+function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO }
 
 function fxrun { ~/ROOT/codes/company/wd/Android/FxxDebugger/fxx_run.sh }
 function fxlog { ~/ROOT/codes/company/wd/Android/FxxDebugger/fxx_log.sh }
