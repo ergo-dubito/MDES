@@ -88,6 +88,9 @@ pod --version
 brew install graphviz
 gem install cocoapods-dependencies
 
+#xcake
+gem install xcake
+
 # Carthage
 brew update
 brew install carthage
