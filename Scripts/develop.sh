@@ -84,6 +84,10 @@ pod --version
 # rvm use ruby-2.4.1@pods-1.3.1 --default
 # gem install cocoapods-playgrounds
 
+# pod dependencies
+brew install graphviz
+gem install cocoapods-dependencies
+
 # Carthage
 brew update
 brew install carthage
