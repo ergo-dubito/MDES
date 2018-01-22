@@ -149,7 +149,7 @@ docker ps
 brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia gitup squirrel hyper spark
 
 # Intellij Platform
-brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode clion # need config android sdk
+brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode clion jetbrains-toolbox # need config android sdk
 
 # genymotion
 brew cask install virtualbox genymotion
