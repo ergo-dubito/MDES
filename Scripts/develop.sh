@@ -64,6 +64,7 @@ npm i nodemon -g
 npm i json-server -g
 npm i skpm -g
 npm i -g weex-toolkit
+npm i -g webpack
 
 # gem
 gem install bundler
