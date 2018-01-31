@@ -1,9 +1,13 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Source Code Pro",
+    // Controls the location of the sidebar. It can either show on the left or right of the workbench.
+    "workbench.sideBar.location": "right",
+
+    // Controls the font family.
+    "editor.fontFamily": "Code New Roman",
 
     // Controls the font size in pixels.
-    "editor.fontSize": 16,
+    "editor.fontSize": 20,
 
     // Controls whether the editor should render indent guides
     "editor.renderIndentGuides": true,
@@ -35,7 +39,7 @@
     "workbench.iconTheme": "vscode-icons",
 
     // Specifies the color theme used in the workbench.
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai",
 
     // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
     "terminal.integrated.fontFamily": "Source Code Pro",
@@ -54,8 +58,7 @@
         "*.wpy": "vue",
         "*.wxml": "html",
         "*.wxss": "css"
-    }
-
-    // Show warning when a number of matched files exceed this limit. Set to -1 for unlimited.
-    "markJump.maximumLimit": 10000
+    },
+    "markJump.maximumLimit": 1000,
+    "window.zoomLevel": -1
 }
