@@ -17,6 +17,7 @@ pip3 install asciinema
 pyenv shell 3.6.3
 pip3 install --upgrade you-get
 pip3 install --upgrade youtube-dl
+brew install ffmpeg
 
 # baidu pcs
 j github
