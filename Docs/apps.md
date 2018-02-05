@@ -36,6 +36,7 @@
 - [paw](https://paw.cloud/)
 - [Charles](https://www.charlesproxy.com/) - Mac 抓包利器
 - [WebTorrent](https://webtorrent.io/) - torrent 下载工具，你懂的
+- [magnet](http://magnet.crowdcafe.com/) - Window Manager for Mac
 
 ## Task
 - [奇妙清单](https://www.wunderlist.com) - 任务管理工具
