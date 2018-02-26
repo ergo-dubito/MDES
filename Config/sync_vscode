@@ -59,6 +59,5 @@
         "*.wxml": "html",
         "*.wxss": "css"
     },
-    "markJump.maximumLimit": 1000,
-    "window.zoomLevel": -1
+    "markJump.maximumLimit": 1000
 }
