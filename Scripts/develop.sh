@@ -39,7 +39,7 @@ code --install-extension robinbentley.sass-indented
 # language
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eg2.tslint
-code --install-extension saviorisdead.RustyCode
+code --install-extension rust-lang.rust
 # vue
 code --install-extension octref.vetur
 code --install-extension hollowtree.vue-snippets

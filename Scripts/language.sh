@@ -62,7 +62,9 @@ java -version
 # Rust (Close Terminal)
 curl https://sh.rustup.rs -sSf | sh
 echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
-cargo install racer
-cargo install rustfmt
-cargo install rustsym
-cargo install cargo-edit
+
+# Rust with VSCode
+rustup update nightly
+rustup component add rls-preview --toolchain nightly
+rustup component add rust-src --toolchain nightly
+rustup component add rust-analysis --toolchain nightly
