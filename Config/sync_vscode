@@ -7,7 +7,7 @@
     "editor.fontFamily": "Code New Roman",
 
     // Controls the font size in pixels.
-    "editor.fontSize": 20,
+    "editor.fontSize": 18,
 
     // Controls whether the editor should render indent guides
     "editor.renderIndentGuides": true,
@@ -45,7 +45,7 @@
     "terminal.integrated.fontFamily": "Source Code Pro",
 
     // Controls the font size in pixels of the terminal.
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
 
     // Automatically update extensions
     "extensions.autoUpdate": true,
