@@ -172,3 +172,8 @@ brew install pidcat
 # imagemagick(sketch optional)
 brew install imagemagick
 npm install -g svgo svg2vectordrawable
+
+# react-native
+
+brew install watchman
+brew install flow
