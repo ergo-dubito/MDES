@@ -69,6 +69,11 @@ rustup component add rls-preview --toolchain nightly
 rustup component add rust-src --toolchain nightly
 rustup component add rust-analysis --toolchain nightly
 
-# Golang
-
+# Golang(close terminal)
 zsh < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+gvm install go1.4 -B
+gvm use go1.4
+gvm install go1.9.4 -B
+gvm use go1.9.4 --default
+go version
+go env
