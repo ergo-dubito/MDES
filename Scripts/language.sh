@@ -73,9 +73,6 @@ zsh < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binsc
 gvm install go1.4 -B
 gvm use go1.4
 
-gvm install go1.9.4 -B
-gvm use go1.9.4 --default
-
 gvm install go1.10 -B
 gvm use go1.10 --default
 
