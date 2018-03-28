@@ -82,4 +82,5 @@ gvm use go1.10 --default
 go version
 go env
 
-brew install dep # (install go twice)
+brew install dep
+brew uninstall --ignore-dependencies go
