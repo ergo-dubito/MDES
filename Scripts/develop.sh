@@ -181,3 +181,4 @@ brew install flow
 # buck
 brew tap facebook/fb
 brew install buck
+brew install fbsimctl --HEAD
