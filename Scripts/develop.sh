@@ -177,3 +177,7 @@ npm install -g svgo svg2vectordrawable
 
 brew install watchman
 brew install flow
+
+# buck
+brew tap facebook/fb
+brew install buck
