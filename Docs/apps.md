@@ -97,6 +97,7 @@
 - [MacPeers](https://www.macpeers.com/)
 - [Cracked Software](https://crackedmine.com/)
 - [4macsoft](https://4macsoft.com/)
+- [史蒂芬周破解](http://www.sdifen.com/)
 
 > 注意：
   这里主要是一些收费软件，如果要使用破解版则必须要手动去找安装包。
