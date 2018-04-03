@@ -182,3 +182,6 @@ brew install flow
 brew tap facebook/fb
 brew install buck
 brew install fbsimctl --HEAD
+
+# jira
+go get gopkg.in/Netflix-Skunkworks/go-jira.v1/cmd/jira
