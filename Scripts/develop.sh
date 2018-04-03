@@ -185,3 +185,5 @@ brew install fbsimctl --HEAD
 
 # jira
 go get gopkg.in/Netflix-Skunkworks/go-jira.v1/cmd/jira
+
+# git clone init hook - https://github.com/DrVanScott/git-clone-init
