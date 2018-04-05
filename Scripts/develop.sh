@@ -187,3 +187,6 @@ brew install fbsimctl --HEAD
 go get gopkg.in/Netflix-Skunkworks/go-jira.v1/cmd/jira
 
 # git clone init hook - https://github.com/DrVanScott/git-clone-init
+
+# git flow
+brew install git-flow-avh
