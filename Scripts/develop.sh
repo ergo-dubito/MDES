@@ -152,7 +152,7 @@ docker ps
 # Cask install macOS apps
 brew cask install google-chrome dropbox foxmail
 brew cask install wwdc cheatsheet sourcetree telegram slack insomnia postman gitup asset-catalog-tinkerer transmit
-brew cask squirrel hyper spark sitesucker
+brew cask squirrel hyper spark sitesucker # optional
 
 # Intellij Platform
 brew cask install jetbrains-toolbox
