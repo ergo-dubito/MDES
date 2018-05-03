@@ -149,11 +149,14 @@ brew cask install docker # brew cask install docker-toolbox (toolbox vs docker)
 docker --version
 docker ps
 
-# Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal) gitup
-brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia gitup squirrel hyper spark asset-catalog-tinkerer
+# Cask install macOS apps
+brew cask install google-chrome dropbox foxmail
+brew cask install wwdc cheatsheet sourcetree telegram slack insomnia postman gitup asset-catalog-tinkerer transmit
+brew cask squirrel hyper spark sitesucker
 
 # Intellij Platform
-brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode clion jetbrains-toolbox # need config android sdk
+brew cask install jetbrains-toolbox
+brew cask install android-studio # need config android sdk
 
 # genymotion
 brew cask install virtualbox genymotion
