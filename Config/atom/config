@@ -1,15 +1,11 @@
 "*":
   core:
-    openEmptyEditorOnStart: false
+    excludeVcsIgnoredPaths: false
     telemetryConsent: "limited"
     themes: [
       "nucleus-dark-ui"
       "monokai"
     ]
-    customFileTypes:
-      "text.html.vue": [
-        "wpy"
-      ]
   editor:
     fontFamily: "Consolas"
     preferredLineLength: 160
