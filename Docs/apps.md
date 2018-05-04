@@ -88,7 +88,7 @@
 
 ## 科学软件使用姿势
 
-- [Xclient.info](xclient.info)
+- [XClient.info](xclient.info)
 - [爱情守望者](https://www.waitsun.com/)
 - [MacAppStore.net](http://macappstore.net/)
 - [MacApp](https://macapp.org/)
