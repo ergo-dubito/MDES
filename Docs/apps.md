@@ -76,8 +76,8 @@
 
 ## Compare
 
-- Kaleidoscope
-- Beyond Compare
+- [Kaleidoscope](https://www.kaleidoscopeapp.com/)
+- [Beyond Compare](https://www.scootersoftware.com/)
 
 ## VPNClient
 - [SpechtLite](https://github.com/zhuhaow/SpechtLite) - A rule-based proxy app for macOS.
