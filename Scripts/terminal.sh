@@ -10,11 +10,12 @@ echo '[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/
 brew install tree
 
 # asciinema
-pyenv shell 3.6.3
+pyenv shell 3.6.5
 pip3 install asciinema
 
 # you-get - youtube-dl
-pyenv shell 3.6.3
+pyenv shell 3.6.5
+pip install --upgrade pip
 pip3 install --upgrade you-get
 pip3 install --upgrade youtube-dl
 brew install ffmpeg
