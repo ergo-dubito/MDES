@@ -15,6 +15,10 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "42a28759-70bf-6e0d-7a9b-4a9b6f8c8896"
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
   "markdown-preview":
     useGitHubStyle: true
     whitespace:
