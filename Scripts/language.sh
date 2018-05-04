@@ -12,29 +12,32 @@ ng
 # Python (Close Terminal)
 brew install pyenv
 brew install xz
+
 # To use Homebrew's directories rather than ~/.pyenv add follow line to your profile:
 # echo 'export PYENV_ROOT=/usr/local/var/pyenv' >> ~/.zshrc
-echo 'if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi' >> ~/.zshrc
-echo 'alias brew="env PATH=${PATH//$(pyenv root)\/shims:} brew"' >> ~/.zshrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+
 pyenv install --list
 
 CFLAGS="-I$(brew --prefix openssl)/include" \
 LDFLAGS="-L$(brew --prefix openssl)/lib" \
-pyenv install -v 3.6.3 --verbose
+pyenv install -v 3.6.5 --verbose
 
 pyenv versions
 # need close window or source ~/.zshrc
 
 # Ruby (Close Terminal)
-brew install gnupg gnupg2
+brew install gnupg
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 \curl -sSL https://get.rvm.io | bash
 # if failed using this 'curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -'
 rvm get head
 rvm list known
-rvm install 2.4.2
+rvm install 2.5.1
 rvm docs generate-ri
-rvm --default use 2.4.2
+rvm --default use 2.5.1
 rvm list
 # need close window or source ~/.zshrc
 
@@ -45,13 +48,13 @@ echo 'eval "$(jenv init -)"' >> ~/.zshrc
 
 # Java
 
-brew cask install java8
 brew cask install java
+brew cask install java8
 
-jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
-jenv add /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+jenv add /Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home
+jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home
 
-jenv global 1.8.0.152
+jenv global oracle64-1.8.0.172
 # restart terminal
 java -version
 

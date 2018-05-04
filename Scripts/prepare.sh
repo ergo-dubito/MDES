@@ -25,7 +25,7 @@ reboot
 # Openssl
 brew install openssl
 sudo mv /usr/bin/openssl /usr/bin/openssl_old
-sudo ln -s /usr/local/Cellar/openssl/1.0.2m/bin/openssl /usr/bin/openssl
+sudo ln -s /usr/local/Cellar/openssl/1.0.2o/bin/openssl /usr/bin/openssl
 ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
 ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
 openssl version -a

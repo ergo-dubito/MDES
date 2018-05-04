@@ -29,3 +29,6 @@ https://sourceforge.net/projects/codenewroman/
 
 # Apple Font
 https://developer.apple.com/fonts/
+
+# ProgrammingFonts
+https://github.com/ProgrammingFonts/ProgrammingFonts
