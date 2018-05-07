@@ -155,7 +155,7 @@ brew cask install wwdc cheatsheet sourcetree telegram slack insomnia postman git
 brew cask squirrel hyper spark sitesucker transmit # optional
 
 # Intellij Platform
-brew cask install jetbrains-toolbox
+brew cask install jetbrains-toolbox # need custom the shell scripts location and re-gen the script location in every IDE, becuase it's has bug current time(2018.5.7)
 brew cask install android-studio # need config android sdk
 
 # genymotion
