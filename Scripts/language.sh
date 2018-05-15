@@ -12,12 +12,14 @@ ng
 # Python (Close Terminal)
 brew install pyenv
 brew install xz
+brew install pyenv-virtualenv
 
 # To use Homebrew's directories rather than ~/.pyenv add follow line to your profile:
 # echo 'export PYENV_ROOT=/usr/local/var/pyenv' >> ~/.zshrc
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+echo -e '\nif command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+echo -e '\nif which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.zshrc
 
 pyenv install --list
 
@@ -26,6 +28,7 @@ LDFLAGS="-L$(brew --prefix openssl)/lib" \
 pyenv install -v 3.6.5 --verbose
 
 pyenv versions
+
 # need close window or source ~/.zshrc
 
 # Ruby (Close Terminal)
