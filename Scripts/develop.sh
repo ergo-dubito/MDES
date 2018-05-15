@@ -197,3 +197,8 @@ go get gopkg.in/Netflix-Skunkworks/go-jira.v1/cmd/jira
 
 # git flow
 brew install git-flow-avh
+
+# tensorflow
+pyenv virtualenv 3.6.5 tf365
+pyenv activate tf365
+pip3 install --upgrade tensorflow
