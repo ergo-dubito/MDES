@@ -40,7 +40,6 @@ code --install-extension robinbentley.sass-indented
 code --install-extension dbaeumer.vscode-eslint # eslint
 code --install-extension eg2.tslint # tslint
 code --install-extension rust-lang.rust # rust
-code --install-extension vknabel.vscode-swift-development-environment # swift https://github.com/vknabel/vscode-swift-development-environment
 # vue
 code --install-extension octref.vetur
 code --install-extension hollowtree.vue-snippets

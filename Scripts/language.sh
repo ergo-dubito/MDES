@@ -3,6 +3,8 @@ brew install kylef/formulae/swiftenv
 echo 'export SWIFTENV_ROOT="$HOME/.swiftenv"' >> ~/.zshrc
 echo 'export PATH="$SWIFTENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo 'if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi' >> ~/.zshrc
+swiftenv install --list
+swiftenv install 4.0.3
 
 # Node (Close Terminal)
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
