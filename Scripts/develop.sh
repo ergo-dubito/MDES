@@ -24,6 +24,7 @@ code --install-extension wayou.vscode-todo-highlight
 code --install-extension deerawan.vscode-faker
 code --install-extension esbenp.prettier-vscode
 # themes&icons
+code --install-extension teabyii.ayu
 code --install-extension Equinusocio.vsc-material-theme
 code --install-extension ms-vscode.Theme-TomorrowKit
 code --install-extension robertohuertasm.vscode-icons
