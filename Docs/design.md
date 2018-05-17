@@ -66,6 +66,7 @@
 - [pixelmator](http://www.pixelmator.com/pro/) - The world’s most innovative image editing app
 - [gravit](https://gravit.io/)
 - [kite](https://kiteapp.co/)
+- [studio](https://www.invisionapp.com/studio)
 
 ## Web Design
 - [Macaw](http://macaw.co/) - 有悟性的网页设计工具，可惜被 `Invision` 收购了
