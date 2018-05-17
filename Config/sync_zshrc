@@ -109,6 +109,10 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
+export SWIFTENV_ROOT="$HOME/.swiftenv"
+export PATH="$SWIFTENV_ROOT/bin:$PATH"
+if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
