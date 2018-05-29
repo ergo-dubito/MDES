@@ -66,6 +66,7 @@ npm i json-server -g
 npm i skpm -g
 npm i -g webpack
 npm i -g nrm
+npm i -g asar
 
 # gem
 gem install bundler
