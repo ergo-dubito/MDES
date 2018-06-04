@@ -134,6 +134,9 @@ brew install nginx
 # swift lint
 brew install swiftlint
 
+# XcodeGen
+brew install XcodeGen
+
 # oclint
 brew install xctool
 brew tap oclint/formulae
