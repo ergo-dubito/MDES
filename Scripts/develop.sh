@@ -167,6 +167,7 @@ brew cask install jetbrains-toolbox
 # 3. Custom Toolbox's shell scripts location and re-gen the script location in every IDE, becuase it's has bug current time(2018.5.7)
 # 4. sync every IDE vmoptions
 brew cask install android-studio # need config android sdk
+# sudo /Applications/Android\ Studio.app/Contents/MacOS/studio (android studio update)
 
 # genymotion
 brew cask install virtualbox genymotion
