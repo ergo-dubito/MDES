@@ -67,7 +67,7 @@ npm i skpm -g
 npm i webpack -g
 npm i nrm -g
 npm i asar -g
-npm i gnomon  -g
+npm i gnomon -g
 
 # gem
 gem install bundler
