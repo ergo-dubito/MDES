@@ -64,9 +64,10 @@ npm i gtop -g
 npm i nodemon -g
 npm i json-server -g
 npm i skpm -g
-npm i -g webpack
-npm i -g nrm
-npm i -g asar
+npm i webpack -g
+npm i nrm -g
+npm i asar -g
+npm i gnomon -g
 
 # gem
 gem install bundler
