@@ -59,5 +59,6 @@
         "*.wxml": "html",
         "*.wxss": "css"
     },
-    "markJump.maximumLimit": 1000
+    "workbench.startupEditor": "welcomePage",
+    "terminal.integrated.rendererType": "dom",
 }
