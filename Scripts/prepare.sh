@@ -7,8 +7,7 @@ brew doctor
 brew update
 
 # Cask
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 brew update
 
 # mas
