@@ -12,3 +12,5 @@ mas install 1278508951
 mas install 617950461
 # 网易邮箱大师
 mas install 1233593954
+# InjectionIII
+mas install 1380446739
