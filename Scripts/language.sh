@@ -50,6 +50,7 @@ rvm install 2.5.1
 rvm docs generate-ri
 rvm --default use 2.5.1
 rvm list
+gem update --system 2.7.6 # (cocoapods Malformed version number string error)
 # need close window or source ~/.zshrc
 
 # jenv
