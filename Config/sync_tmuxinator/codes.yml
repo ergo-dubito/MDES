@@ -44,12 +44,14 @@ startup_pane: 1
 
 windows:
   - CodingLife:
-      root: ~/ROOT/codes/gitlab
+      root: ~/ROOT/codes/codinglife
   - WDiOS:
       root: ~/ROOT/codes/company/WD/iOS
   - WDAndroid:
       root: ~/ROOT/codes/company/WD/Android
   - WDFE:
       root: ~/ROOT/codes/company/WD/FE
+  - Gitlab:
+      root: ~/ROOT/codes/gitlab
   - Github:
       root: ~/ROOT/codes/github
