@@ -157,8 +157,8 @@ docker --version
 docker ps
 
 # Cask install macOS apps
-brew cask install google-chrome dropbox foxmail
-brew cask install wwdc cheatsheet sourcetree telegram slack insomnia postman gitup asset-catalog-tinkerer mpv
+brew cask install google-chrome dropbox
+brew cask install wwdc cheatsheet sourcetree telegram slack insomnia postman gitup asset-catalog-tinkerer mpv webtorrent
 brew cask squirrel hyper spark sitesucker transmit # optional
 
 # Intellij Platform
