@@ -1,0 +1,43 @@
+[
+  {
+    title: "MDES"
+    group: "Tools"
+    paths: [
+      "/Users/sunyanfei/ROOT/codes/github/Tools/MDES"
+    ]
+    color: "#A9DC76"
+    devMode: true
+  }
+  {
+    title: "Dropbox"
+    group: "Config"
+    paths: [
+      "/Users/sunyanfei/Dropbox"
+    ]
+    color: "#FC9867"
+  }
+  {
+    title: "SSH"
+    group: "Config"
+    paths: [
+      "/Users/sunyanfei/.ssh"
+    ]
+    color: "#FC9867"
+  }
+  {
+    title: "Caliburn Micro"
+    group: "MVVM"
+    paths: [
+      "/Users/sunyanfei/ROOT/codes/github/UWP/Caliburn.Micro"
+    ]
+    color: "#3381EA"
+  }
+  {
+    title: "Xamarin Forms"
+    group: "MVVM"
+    paths: [
+      "/Users/sunyanfei/ROOT/codes/github/UWP/Xamarin.Forms"
+    ]
+    color: "#3381EA"
+  }
+]
