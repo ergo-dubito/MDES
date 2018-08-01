@@ -192,6 +192,8 @@ npm install -g svgo svg2vectordrawable
 
 brew install watchman
 brew install flow
+npm install -g react-native-cli
+npm install -g create-react-native-app
 
 # buck
 brew tap facebook/fb
