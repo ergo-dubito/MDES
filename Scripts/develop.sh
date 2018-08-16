@@ -23,6 +23,8 @@ code --install-extension spywhere.mark-jump
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension deerawan.vscode-faker
 code --install-extension esbenp.prettier-vscode
+code --install-extension eamodio.gitlens
+code --install-extension humao.rest-client
 # themes&icons
 code --install-extension teabyii.ayu
 code --install-extension Equinusocio.vsc-material-theme
